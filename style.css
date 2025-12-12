@@ -1,0 +1,250 @@
+body{
+    background-color: rgb(8, 8, 80);
+}
+h1{
+            color: rgb(242, 245, 243);
+    background-color: rgb(51, 55, 66);
+    text-align: center;
+    font-size: 250%;
+
+}
+
+h2{
+            color: rgb(247, 222, 2);
+    border-radius: 5%;
+    text-align: center;
+}
+h3{
+                color: rgb(0, 0, 0);
+    border-radius: 5%;
+    text-align: center;
+    font-size: 150%;
+}
+.start{
+        color: rgb(242, 245, 243);
+    background-color: rgb(25, 214, 41);
+    max-width: 100%;
+    width: 900px;
+    margin: auto;
+    border-radius: 5%;
+    text-align: center;
+    padding: 5px;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    box-shadow: 20px 20px 50px 10px;
+}
+.legacy{
+        color: rgb(0, 0, 0);
+    background-color: rgb(202, 202, 202);
+    max-width: 100%;
+    width: 900px;
+    margin: auto;
+    border-radius: 5%;
+    text-align: center;
+    padding: 5px;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    margin-bottom: 40px;
+}
+.ww1{
+        color: rgb(0, 0, 0);
+    background-color: rgb(202, 202, 202);
+    max-width: 100%;
+width: 900px;
+    margin: auto;
+    border-radius: 5%;
+    text-align: center;
+    padding: 5px;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    margin-bottom: 40px;
+}
+.ww2{
+            color: rgb(0, 0, 0);
+    background-color: rgb(202, 202, 202);
+    max-width: 100%;
+width: 900px;
+    margin: auto;
+    border-radius: 5%;
+    text-align: center;
+    padding: 5px;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    margin-bottom: 40px;
+}
+nav {
+    padding: 15px;
+        display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #0084ff;
+    border-radius: 5px;
+    font-family: Arial;
+}
+
+nav a:hover {
+    background-color: #eeff00;
+}
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 220px;
+    height: 100%;
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    overflow-y: auto;
+    font-family: Arial;
+}
+.right-sidebar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 120px;
+    height: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    size: 1000px;
+    color: yellow;
+    font-size: 120px;
+}
+.img1{
+        display: block;
+    margin: 35px auto;
+    width: 50%;
+    max-width: 420px;
+    height: auto;
+    border-radius: 15px;
+    padding: 6px;
+    background: white;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.45);
+    transition: transform .3s ease;
+}
+.img1:hover{
+        transform: scale(1.05);
+}
+.img2{
+        display: block;
+    margin: 35px auto;
+    width: 50%;
+    max-width: 420px;
+    height: auto;
+    border-radius: 15px;
+    padding: 6px;
+    background: white; 
+    box-shadow: 0 8px 20px rgba(0,0,0,0.45);
+    transition: transform .3s ease;
+}
+.img2:hover{
+        transform: scale(1.05);
+}
+.img3{
+        display: block;
+    margin: 35px auto;
+    width: 50%;
+    max-width: 420px;
+    height: auto;
+    border-radius: 15px;
+    padding: 6px;
+    background: white; 
+    box-shadow: 0 8px 20px rgba(0,0,0,0.45);
+    transition: transform .3s ease;
+}
+.img3:hover{
+        transform: scale(1.05);
+}
+.img4{
+        display: block;
+    margin: 35px auto;
+    width: 50%;
+    max-width: 420px;
+    height: auto;
+    border-radius: 15px;
+    padding: 6px;
+    background: white;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.45);
+    transition: transform .3s ease;
+}
+.img4:hover{
+        transform: scale(1.05);
+}
+.img5{
+        display: block;
+    margin: 35px auto;
+    width: 50%;
+    max-width: 420px;
+    height: auto;
+    border-radius: 15px;
+    padding: 6px;
+    background: white; 
+    box-shadow: 0 8px 20px rgba(0,0,0,0.45);
+    transition: transform .3s ease;
+}
+.img5:hover{
+        transform: scale(1.05);
+}
+.two-boxes {
+  display: flex;
+  justify-content: center; 
+  align-items: stretch;    
+  gap: 32px;             
+  max-width: 1000px;      
+  margin: 40px auto;        
+  padding: 0 16px;     
+  flex-wrap: wrap;    
+}
+
+
+.box {
+  flex: 0 0 420px;      
+  display: flex;
+  flex-direction: column;   
+  justify-content: flex-start;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  box-sizing: border-box;
+}
+
+
+.funfacts { background: hsl(0, 100%, 72%); }
+.countries { background: #5a65fd; }
+
+
+.box h2 {
+margin-bottom: 12px;
+font-size: 1.25rem;
+}
+.box ul { padding-left: 20px; }
+.boximg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   /* hace que la imagen se vea bonita y llena la caja */
+    border-radius: 10px; /* opcional, para que combine con la caja */
+}
+.source-list {
+    list-style-type: disc;
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+.source-list li {
+    margin-bottom: 12px;
+    word-break: break-all; /* prevents long links from breaking layout */
+}
